@@ -1,4 +1,4 @@
-# 语雀 Skill (Yuque Skill for Openclaw)
+# 语雀 Skill (Yuque Skill for Openclaw & Claude Code)
 
 把语雀(Yuque)的开放API包装成一组可被 **Openclaw / Claude Code / Claude Agent SDK** 直接调用的Python脚本,让Claude能像操作本地文件一样操作云端语雀文档:增删改查、目录重排、Markdown排版调整、全文搜索、批量导入导出。
 
