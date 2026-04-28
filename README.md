@@ -29,12 +29,16 @@ Openclaw 的 Skill 加载机制会扫描 `~/.openclaw/skills/` 与项目级 `.op
 
 ### 方法 A:终端 — 个人级安装(对所有项目可用)
 
+> 前提：先从 [Releases](https://github.com/feixuelingcloud/yuque-skill/releases) 下载 `yuque.skill`，解压后得到 `yuque-skill/` 目录，再执行：
+
 ```bash
 mkdir -p ~/.openclaw/skills/
 cp -r yuque-skill ~/.openclaw/skills/yuque
 ```
 
 ### 方法 B:终端 — 项目级安装(只对当前工作目录可用)
+
+> 前提：同方法 A，先下载解压得到 `yuque-skill/` 目录，再执行：
 
 ```bash
 mkdir -p .openclaw/skills/
